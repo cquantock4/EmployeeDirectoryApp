@@ -1,0 +1,16 @@
+﻿@model List<EmployeeModel>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Employees</h1>
+    <ul>
+        @foreach(var e in Model)
+        {
+            <li>@e.Id: @e.FirstName @e.LastName (@e.Title)</li>
+        }
+    </ul>
+</div>

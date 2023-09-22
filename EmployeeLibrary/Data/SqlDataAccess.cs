@@ -15,7 +15,7 @@ namespace EmployeeLibrary.Data
             _config = config;
         }
 
-        public async Task<List<T>> LoadData<T, U>(string sql,
+        public async Task<List<T>> LoadDataAsync<T, U>(string sql,
                                                   U parameters,
                                                   string connectionStringName = "Default")
         {

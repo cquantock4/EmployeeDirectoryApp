@@ -5,9 +5,13 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EmployeeDB", "EmployeeDB\EmployeeDB.sqlproj", "{87CAEC60-DFBD-4FAE-9B1E-BC13DC9AD99D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLibrary", "EmployeeLibrary\EmployeeLibrary.csproj", "{F4353DD2-618C-4A90-AF4A-16F8C45ACF71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeLibrary", "EmployeeLibrary\EmployeeLibrary.csproj", "{F4353DD2-618C-4A90-AF4A-16F8C45ACF71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApi", "EmployeeApi\EmployeeApi.csproj", "{DB5E1548-FF2A-45A2-9A1D-A65030476AB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeApi", "EmployeeApi\EmployeeApi.csproj", "{DB5E1548-FF2A-45A2-9A1D-A65030476AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{59ED0179-658D-42EA-96C7-421717F2FE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{15846587-4AF1-417E-A2ED-F973A42048A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{DB5E1548-FF2A-45A2-9A1D-A65030476AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5E1548-FF2A-45A2-9A1D-A65030476AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5E1548-FF2A-45A2-9A1D-A65030476AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ED0179-658D-42EA-96C7-421717F2FE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ED0179-658D-42EA-96C7-421717F2FE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ED0179-658D-42EA-96C7-421717F2FE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ED0179-658D-42EA-96C7-421717F2FE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15846587-4AF1-417E-A2ED-F973A42048A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15846587-4AF1-417E-A2ED-F973A42048A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15846587-4AF1-417E-A2ED-F973A42048A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15846587-4AF1-417E-A2ED-F973A42048A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,6 @@
 {
     public interface ISqlDataAccess
     {
-        Task<List<T>> LoadData<T, U>(string sql, U parameters, string connectionStringName = "Default");
+        Task<List<T>> LoadDataAsync<T, U>(string sql, U parameters, string connectionStringName = "Default");
     }
 }
