@@ -1,7 +1,7 @@
 # Employee Directory Full Stack App
 
 # API
-Rest API performs a get to retireve all employees.
+Rest API performs a get to retrieve all employees.
 
 # SQL Server
 Employee Database
